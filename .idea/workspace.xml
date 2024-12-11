@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7842f4-5eb2-42ba-b803-26a9a8b25aae" name="Changes" comment="" />
+    <list default="true" id="6e7842f4-5eb2-42ba-b803-26a9a8b25aae" name="Changes" comment="Primer entrega">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutMe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutMe/Perfil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EvaFioen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EvaFioen/FioenEvaEjercicio1Aboutme.git",
+    "accountId": "7d3c4603-0a86-41f0-9593-25d6b055e9d5"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -21,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
@@ -35,6 +61,38 @@
       <option name="presentableId" value="Default" />
       <updated>1733931359965</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer entrega">
+      <option name="closed" value="true" />
+      <created>1733934582776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733934582776</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primer entrega">
+      <option name="closed" value="true" />
+      <created>1733934750384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733934750384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer entrega" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer entrega" />
   </component>
 </project>
