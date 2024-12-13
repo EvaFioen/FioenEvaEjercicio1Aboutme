@@ -2,6 +2,7 @@ package AboutMe;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     Scanner input = new Scanner(System.in);
@@ -51,11 +52,10 @@ public class Main {
         do {
             // Mostrar el menú
             System.out.println("\nMenu AboutMe [" + miPerfil.getName() + "]");
-            System.out.println("1. Ver Story");
-            System.out.println("2. Ver Hobbies");
-            System.out.println("3. Ver Foods");
-            System.out.println("4. Ver Fun Facts");
-            System.out.println("5. Salir");
+            System.out.println("1. Story");
+            System.out.println("2. Favorites");
+            System.out.println("3. Fun Facts");
+            System.out.println("4. Salir");
             System.out.print("Selecciona una opción: ");
 
             while (!input.hasNextInt()) {
@@ -71,20 +71,23 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Hobbies: " + miPerfil.getHobbies());
+                    System.out.println("Foods: " + miPerfil.getFoods());
                     break;
                 case 3:
-                    System.out.println("Foods: " +miPerfil.getFoods());
-                    break;
+                System.out.println("Fun Fact: " + getRandomFunFact());
+                break;
                 case 4:
-                    System.out.println(miPerfil.getFormattedFunFacts());
-                    break;
-                case 5:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
                     System.out.println("Opción no válida. Inténtalo de nuevo.");
             }
-        } while (menu != 5);
+        } while (menu != 4);
+    }
+    private String getRandomFunFact() {
+        Random random = new Random();
+        ArrayList<String> funFacts = miPerfil.getFunFacts();
+        return funFacts.get(random.nextInt(funFacts.size()));
     }
 
 }

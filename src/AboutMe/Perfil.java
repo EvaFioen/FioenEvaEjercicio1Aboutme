@@ -31,6 +31,7 @@ public class Perfil {
     public String getStory() {return story;}
     public ArrayList<String> getHobbies() {return hobbies;}
     public ArrayList<String> getFoods() {return foods;}
+    public ArrayList<String> getFunFacts() {return funFacts;}
 
     @Override
     public String toString() {
@@ -39,13 +40,5 @@ public class Perfil {
                 "Hobbies: " + hobbies +"\n"+
                 "Foods: " + foods + "\n"+
                 "Fun Facts:\n" + String.join("\n", funFacts);
-    }
-
-    /**
-     * Este metodo permite tener cada FunFact en cada linea, es preferenica de vizualizacón.
-     * @return Este parametro devuelvo los FunFactos que se añadido al perfil.
-     */
-    public String getFormattedFunFacts() {
-        return "Fun Facts:\n" + String.join("\n", funFacts);
     }
 }
