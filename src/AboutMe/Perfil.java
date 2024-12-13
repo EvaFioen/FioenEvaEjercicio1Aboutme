@@ -10,7 +10,7 @@ public class Perfil {
     private ArrayList<String> foods;
     private ArrayList<String> funFacts;
 
-    //CONSTRUCTOR VACIO
+    //CONSTRUCTOR
     public Perfil(){
         this.name="";
         this.story="";
@@ -54,13 +54,20 @@ public class Perfil {
         return funFacts;
     }
 
+    @Override
     public String toString() {
-        return "Perfil{" +
-                "name='" + name + '\'' +
-                ", story='" + story + '\'' +
-                ", hobbies=" + hobbies +
-                ", foods=" + foods +
-                ", funFacts=" + funFacts +
-                '}';
+        return "Perfil de " + name + "\n" +
+                "Story: " + story + "\n" +
+                "Hobbies: " + hobbies +"\n"+
+                "Foods: " + foods + "\n"+
+                "Fun Facts:\n" + String.join("\n", funFacts);
+    }
+
+    /**
+     * Este metodo permite tener cada FunFact en cada linea, es preferenica de vizualizacón.
+     * @return Este parametro devuelvo los FunFactos que se añadido al perfil.
+     */
+    public String getFormattedFunFacts() {
+        return "Fun Facts:\n" + String.join("\n", funFacts);
     }
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7842f4-5eb2-42ba-b803-26a9a8b25aae" name="Changes" comment="segundo entrega">
+    <list default="true" id="6e7842f4-5eb2-42ba-b803-26a9a8b25aae" name="Changes" comment="tercera entrega">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AboutMe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutMe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutMe/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutMe/Perfil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,8 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733938734982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tercera entrega">
+      <option name="closed" value="true" />
+      <created>1733946859552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733946859552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer entrega" />
     <MESSAGE value="segundo entrega" />
-    <option name="LAST_COMMIT_MESSAGE" value="segundo entrega" />
+    <MESSAGE value="tercera entrega" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercera entrega" />
   </component>
 </project>
