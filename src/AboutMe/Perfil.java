@@ -19,40 +19,18 @@ public class Perfil {
         this.funFacts=new ArrayList<>();
     }
     //METODOS SETTER
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setStory(String story) {
-        this.story = story;
-
-    }
-    public void setHobbies(ArrayList<String> hobbies) {
-        this.hobbies = hobbies;
-    }
-    public void setFoods(ArrayList<String> foods) {
-        this.foods = foods;
-    }
-    public void setFunFacts(ArrayList<String> funFacts) {
-        this.funFacts = funFacts;
-    }
+    public void setName(String name) {this.name = name;}
+    public void setStory(String story) {this.story = story;}
+    public void setHobbies(ArrayList<String> hobbies) {this.hobbies = hobbies;}
+    public void setFoods(ArrayList<String> foods) {this.foods = foods;}
+    public void setFunFacts(ArrayList<String> funFacts) {this.funFacts = funFacts;}
 
     //METODOS GETTER
 
-    public String getName() {
-        return name;
-    }
-    public String getStory() {
-        return story;
-    }
-    public ArrayList<String> getHobbies() {
-        return hobbies;
-    }
-    public ArrayList<String> getFoods() {
-        return foods;
-    }
-    public ArrayList<String> getFunFacts() {
-        return funFacts;
-    }
+    public String getName() {return name;}
+    public String getStory() {return story;}
+    public ArrayList<String> getHobbies() {return hobbies;}
+    public ArrayList<String> getFoods() {return foods;}
 
     @Override
     public String toString() {
